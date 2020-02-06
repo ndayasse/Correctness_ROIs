@@ -1,7 +1,7 @@
-function [correctness] = Correct_OrNot(no_words,...
+function [correctness] = Correct_MouseClick(no_words,...
     targ_position,x,y,roi_1,roi_2,roi_3,roi_4)
-%Correctness_Sample 
-%   Determine whether a selection is correct or incorrect
+%Correctness_MouseClick
+%   Determine whether a mouse click selection is correct or incorrect
 %
 %   targ_position is a number between 1 and 4 indicating where on screen
 %   Correct Answer is
